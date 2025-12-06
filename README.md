@@ -32,5 +32,5 @@ RAZORPAY_WEBHOOK_SECRET=your_webhook_secret_here   # optional
 CLIENT_URL=http://localhost:3000
 
 # Optional admin credentials (if your project supports admin login)
-ADMIN_EMAIL=admin@example.com
-ADMIN_PASSWORD=admin123
+ADMIN_EMAIL=
+ADMIN_PASSWORD=
