@@ -2,3 +2,8 @@
 .env
 dist/
 build/
+# Node & env
+node_modules/
+.env
+/dist
+/build

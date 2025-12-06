@@ -1,0 +1,104 @@
+/* client/src/components/about.module.css */
+
+:root {
+  --header-height: 4rem; /* matches h-16 */
+}
+
+/* container */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: calc(var(--header-height) + 2rem) 1rem 4rem; /* top offset + content padding */
+  color: #0f172a;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  line-height: 1.6;
+}
+
+/* hero */
+.hero {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 0;
+  color: #2c5282;
+  font-weight: 700;
+}
+
+.lead {
+  margin-top: 0.5rem;
+  color: #475569;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* intro paragraph box */
+.intro {
+  background: #ffffff;
+  padding: 1.25rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.06);
+  margin: 2rem 0;
+}
+
+/* benefits */
+.benefits {
+  margin: 1.5rem 0;
+}
+
+.sectionTitle {
+  font-size: 1.25rem;
+  margin: 0 0 0.75rem;
+  color: #0b1220;
+}
+
+/* grid layout */
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 720px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1100px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card {
+  background: #f8fafc;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(14, 42, 77, 0.04);
+  box-shadow: 0 4px 10px rgba(2,6,23,0.03);
+}
+
+.cardTitle {
+  margin: 0 0 0.5rem;
+  font-size: 1.02rem;
+  color: #12355b;
+  font-weight: 600;
+}
+
+.cardDesc {
+  margin: 0;
+  color: #334155;
+}
+
+/* conclusion */
+.conclusion {
+  margin-top: 1.25rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid rgba(14, 42, 77, 0.02);
+}
